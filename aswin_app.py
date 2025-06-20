@@ -58,7 +58,7 @@ def main():
         with skill_columns[i]:
             st.markdown(f"<b style='color:#F97B22'>{category}</b>", unsafe_allow_html=True)
             for skill in skill_list:
-                st.markdown(f"<span style='color:#444;'>• {skill}</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color:#FFF;'>• {skill}</span>", unsafe_allow_html=True)
 
     # --- Work Experience ---
     st.markdown("<hr style='border:2px solid #4F8BF9;border-radius:2px;'>", unsafe_allow_html=True)
@@ -81,9 +81,9 @@ def main():
         st.markdown("*01/2021 - 04/2023, Remote*")
         st.markdown(
             """
-            - Built end-to-end Data Pipeline on AWS (Data Wrangler, S3, Athena, Glue, SNS, Lambda).
-            - Processed historical data using PySpark on AWS Glue and EMR.
-            - Created interactive dashboards on Amazon QuickSight and Tableau.
+            - 🏗️ Built end-to-end Data Pipeline on AWS (Data Wrangler, S3, Athena, Glue, SNS, Lambda).
+            - 🔄 Processed historical data using PySpark on AWS Glue and EMR.
+            - 📊 Created interactive dashboards on Amazon QuickSight and Tableau.
             """
         )
 
@@ -91,9 +91,9 @@ def main():
         st.markdown("*11/2018 - 01/2021, Trivandrum, Kerala*")
         st.markdown(
             """
-            - Data wrangling and ingestion into Hive and SAP HANA tables.
-            - Automated workflows using Oozie and IBM TWS.
-            - Improved SAP HANA SQL Procedures, reducing load time from 1 hr to < 5 mins.
+            - 🧹 Data wrangling and ingestion into Hive and SAP HANA tables.
+            - 🤖 Automated workflows using Oozie and IBM TWS.
+            - ⚡ Improved SAP HANA SQL Procedures, reducing load time from 1 hr to < 5 mins.
             """
         )
 
@@ -101,9 +101,9 @@ def main():
         st.markdown("*06/2017 - 11/2018, Trivandrum, Kerala*")
         st.markdown(
             """
-            - Developed Data Warehouse for financial platform.
-            - Scheduled and executed ETL jobs for SEC reporting.
-            - Wrote stored procedures and designed SSIS packages.
+            - 🏦 Developed Data Warehouse for financial platform.
+            - ⏰ Scheduled and executed ETL jobs for SEC reporting.
+            - 📝 Wrote stored procedures and designed SSIS packages.
             """
         )
 
@@ -112,6 +112,20 @@ def main():
     colored_header("Personal Projects", "#F97B22")
     st.markdown("**PDF to Speech Converter**: Created a PDF to speech converter in Python using PyPDF2 and pyttsx3 libraries. 🔊")
     st.markdown("**Data Pipeline using Modern Data Stack (PoC)**: Built an end-to-end pipeline using Google Sheets, Fivetran, Snowflake, dbt, and Google Studio. 🛠️")
+
+    # --- Contact ---
+    st.markdown("<hr style='border:2px solid #F97B22;border-radius:2px;'>", unsafe_allow_html=True)
+    colored_header("Contact", "#F97B22")
+    st.markdown(
+        """
+        <ul style="list-style:none;padding-left:0;">
+            <li>📧 <b>Email:</b> <a href="mailto:aswin.rajaram@email.com">aswin.rajaram@email.com</a></li>
+            <li>📱 <b>Phone:</b> <a href="tel:+919400725091">+91 94007 25091</a></li>
+            <li>💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/aswin-rajaram/" target="_blank">linkedin.com/in/aswinrajaram</a></li>
+        </ul>
+        """,
+        unsafe_allow_html=True,
+    )
 
     # --- Education ---
     st.markdown("<hr style='border:2px solid #43BCCD;border-radius:2px;'>", unsafe_allow_html=True)
