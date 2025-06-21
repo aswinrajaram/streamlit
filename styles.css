@@ -1,0 +1,10 @@
+ul, ol {
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+li {
+    margin-left: 0 !important;
+}
+body, .stApp {
+    background-color: #000 !important;
+}
